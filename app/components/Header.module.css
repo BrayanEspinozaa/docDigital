@@ -1,0 +1,32 @@
+.title{
+    font-size: 3rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title-span{
+    font-size: 3.5rem;
+    color: #3152c3;
+    font-weight: bolder;
+    margin-left: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.title-span span{
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+    margin-top: -10px;
+}
+
+.subtitle{
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 600;
+}

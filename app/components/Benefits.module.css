@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.video{
+    width: 45%;
+    height: 200px;
+}
