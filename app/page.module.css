@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: rgb(245, 245, 245);
 }
 
 .content{
@@ -13,5 +14,6 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  padding: 2rem 1.5rem 5rem 1.5rem;
 
 }

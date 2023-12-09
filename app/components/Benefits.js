@@ -7,7 +7,7 @@ export const Benefits = () => {
         <div className={styles.container}>
 
             <div className={styles.videp}>
-                <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=au2n7VVGv_c" frameBorder="0"></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed?v=au2n7VVGv_c" frameBorder="0"></iframe>
             </div>
 
             <div className={styles['benefits-container']}>

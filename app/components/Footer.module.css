@@ -7,8 +7,10 @@
 }
 
 .container p{
-    width: 40%;
+    width: 50%;
     text-align: center;
+    font-size: .8rem;
+    font-weight: 500;
 }
 
 .buttons-container{
