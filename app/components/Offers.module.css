@@ -19,7 +19,9 @@
 }
 
 .card:hover{
-    transform: scale(1.1)
+    transform: scale(1.1);
+    animation: tambaleo 1s infinite;
+
 }
 
 .card label{
@@ -45,4 +47,16 @@
         width: 100%;
     }
     
+}
+
+@keyframes tambaleo {
+    0% {
+        transform: rotate(-1deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
 }
