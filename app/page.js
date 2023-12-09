@@ -10,16 +10,19 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-      <Header/>
+      <section className={styles.content}>
+        <Header />
 
-      <Offers/>
+        <Offers />
 
-      <Benefits/>
+        <Benefits />
 
-      <Steps/>
+        <Steps />
 
-      <Footer/>
-      
+        <Footer />
+      </section>
+
+
     </main>
   )
 }
