@@ -1,8 +1,18 @@
-import { Button } from 'antd'
-import React from 'react'
+'use client'
+
+import { Button, Modal } from 'antd'
+import React, { useState } from 'react'
 import styles from './Footer.module.css'
+import { Package } from './PackageModal/Package'
 
 export const Footer = () => {
+
+    const [isActiveModal, setisActiveModal] = useState(false)
+
+    const openModal = () => setisActiveModal(true)
+
+    const closeModal = () => setisActiveModal(false)
+
     return (
         <div className={styles.container}>
             <p>
@@ -11,9 +21,21 @@ export const Footer = () => {
 
             <div className={styles['buttons-container']}>
 
-                <button className={styles['button-primary']}>Ver Paquetes</button>
+                <button onClick={openModal} className={styles['button-primary']}>Ver Paquetes</button>
                 <button className={styles['button-secundary']}>Agenda una cita con un contador experto</button>
             </div>
+
+            <Modal
+                open={isActiveModal}
+                closable
+                centered
+                footer={false}
+                onCancel={closeModal}
+                width={'auto'}
+            >
+                <Package/>
+
+            </Modal>
 
         </div>
     )
