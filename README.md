@@ -34,3 +34,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Documentos Digitales de México
+
+
+Prueba Técnica Front-End
+Se requiere generar el html de la siguiente pantalla con React (Next.js) y que cumpla
+con los siguientes requisitos:
+● Utilizar css, javascript y flexbox por lo menos.
+● Los 4 cards deben tener algún cambio al hacer hover.
+● El botón “Ver paquetes” mostrará un modal sencillo.
+● El video puede ser algun video de youtube.
+● El botón azul no tiene ninguna funcionalidad.
+● La información del modal solo es estática.
+● Los iconos y el logo pueden ser genéricos o usar fontawesome
+● Diseño responsivo (deseable).
+● Enviar un zip con los 3 archivos (.html, .js, .css).
+● Compartir repositorio Github o Gitlab donde este alojado el Proyecto.
