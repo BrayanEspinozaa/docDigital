@@ -6,9 +6,13 @@ export const Benefits = () => {
     return (
         <div className={styles.container}>
 
-            <div className={styles.videp}>
-                <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=au2n7VVGv_c" frameBorder="0"></iframe>
-            </div>
+            <iframe
+                width="auto"
+                height="auto"
+                src="https://www.youtube.com/embed/nA5jl_Lo5kU?si=hQGnF3FB-y9Psv3j"
+                title="YouTube video player"
+                frameborder="0"
+            ></iframe>
 
             <div className={styles['benefits-container']}>
                 <div className={styles['benefits-title']}>Beneficios</div>
