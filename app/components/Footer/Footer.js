@@ -3,7 +3,7 @@
 import { Button, Modal } from 'antd'
 import React, { useState } from 'react'
 import styles from './Footer.module.css'
-import { Package } from './PackageModal/Package'
+import { Package } from '../PackageModal/Package'
 
 export const Footer = () => {
 
