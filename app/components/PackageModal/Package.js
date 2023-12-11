@@ -26,6 +26,10 @@ export const Package = () => {
                                 ? <button>Elegir</button>
                                 : <button>Cotizar paquete</button>
                         }
+
+                        <div className={styles['item-content-secundary']}>
+                            {item.movements} movimientos bancarios al mes
+                        </div>
                     </div>
                 ))
             }
