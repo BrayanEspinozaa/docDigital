@@ -21,15 +21,15 @@ export const Package = () => {
                                     Contactanos para hacer un paquete a tus necesidades
                                 </div>
                         }
+                        <div className={styles['item-content-secundary']}>
+                            {item.movements} movimientos bancarios al mes
+                        </div>
                         {
                             item.price
                                 ? <button>Elegir</button>
                                 : <button>Cotizar paquete</button>
                         }
 
-                        <div className={styles['item-content-secundary']}>
-                            {item.movements} movimientos bancarios al mes
-                        </div>
                     </div>
                 ))
             }
